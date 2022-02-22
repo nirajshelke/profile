@@ -2,7 +2,7 @@ export default class Database {
     //static firebase;
     static database;
 
-    resumeData = {
+    static resumeData = {
         "header": {
             "name": "Nirajkumar Shelke",
             "title": "3x Certified | 1x Trailhead Ranger | Software Engineer - Salesforce",
@@ -303,6 +303,6 @@ export default class Database {
     }*/
 
     static assignTo(srcCmp, cmpPty) {
-        srcCmp[cmpPty] = this.resumeData;
+        srcCmp[cmpPty] = JSON.parse(JSON.stringify(this.resumeData));
     }
 }
