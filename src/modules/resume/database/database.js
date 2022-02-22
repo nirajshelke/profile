@@ -2,7 +2,7 @@ export default class Database {
     //static firebase;
     static database;
 
-    resumeData = `{
+    resumeData = {
         "header": {
             "name": "Nirajkumar Shelke",
             "title": "3x Certified | 1x Trailhead Ranger | Software Engineer - Salesforce",
@@ -294,7 +294,7 @@ export default class Database {
                 ]
             }
         }
-    }`;
+    };
 
     /*static retrieve() {
         this.firebase = window.firebase;
@@ -303,6 +303,6 @@ export default class Database {
     }*/
 
     static assignTo(srcCmp, cmpPty) {
-        srcCmp[cmpPty] = JSON.parse(JSON.stringify(this.resumeData).replaceAll("\n",""));
+        srcCmp[cmpPty] = this.resumeData;
     }
 }
