@@ -10,7 +10,7 @@ export default class Database {
             "email": "nirajshelke@hotmail.com",
             "link": "",
             "location": "Pune, India",
-            "photo": ""
+            "photo": "resources/img/profile_pic.png"
         },
         "sections": {
             "social": {
