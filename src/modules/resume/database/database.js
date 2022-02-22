@@ -36,7 +36,7 @@ export default class Database {
                     {
                         "position": "Software Engineer",
                         "dateRange": {
-                            "isOngoing": "true",
+                            "isOngoing": true,
                             "fromYear": "Feb'21",
                             "toYear": ""
                         },
@@ -65,7 +65,7 @@ export default class Database {
                     {
                         "position": "Application Development Analyst",
                         "dateRange": {
-                            "isOngoing": "false",
+                            "isOngoing": false,
                             "fromYear": "Oct'2018",
                             "toYear": "Feb'2021"
                         },
