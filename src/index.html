@@ -1,21 +1,49 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>My LWC App</title>
-        <style>
-            body {
-                font-family: Arial, Helvetica, sans-serif;
-            }
-        </style>
-        <!-- Block zoom -->
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1, maximum-scale=1"
-        />
-        <link rel="shortcut icon" href="./resources/favicon.ico" />
-    </head>
-    <body>
-        <div id="main"></div>
-    </body>
-</html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Nirajkumar Shelke</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
+    <link rel="shortcut icon" href="./resources/favicon.ico" />
+    <link rel="stylesheet" href="./resources/styles.min.css">
+</head>
+
+<body class="p-3 m-3">
+    <div class="container grid-xl p-3 resume">
+        <!--App Container-->
+        <div id="main" class="p-3">
+            <!--Empty State-->
+            <div class="flex-centered">
+                <div class="loading loading-lg"></div>
+            </div>
+        </div>
+    </div>
+    <div class="flex-centered heading-font footer">
+        <div class="columns">
+            <div class="column col-12 pt-3">
+                Built with <span class="text-error">♥</span> by Nirajkumar Shelke
+            </div>
+        </div>
+    </div>
+    <div class="flex-centered">
+        <div class="columns">
+            <div class="column col-5 pt-2">
+                <a href="https://firebase.google.com/" target="_blank">
+                    <img
+                        src="resources/img/built_with_firebase.svg"
+                        class="built-with"
+                    />
+                </a>
+            </div>
+            <div class="column col-6 pt-2">
+                <a href="https://lwc.dev/" target="_blank">
+                    <img
+                        src="resources/img/built_with_lwc.svg"
+                        class="built-with"
+                    />
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
